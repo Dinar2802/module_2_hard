@@ -11,7 +11,7 @@ def pw():
                     password.append(str(i) + '+' + str(j))
 
     print(*password)
-    return pw()
+    pw()
 
 
 pw()
